@@ -1,0 +1,56 @@
+body {
+    background-color: white;
+}
+
+#mainContent {
+    background-color: rgba(232, 93, 93, 0.6);
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 90%;
+}
+
+h1 {
+    background-color: white;
+    color: rgb(216, 29, 79);
+    border-radius: 5px;
+    margin: 20px;
+    margin-top: 20px;
+}
+
+.dadosReserva {
+    width: 90%;
+    position: relative;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#mainContent p {
+    font-weight: bold;
+}
+
+#mainContent input[type="date"],
+input[type="number"] {
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(215, 78, 115);
+    margin-top: 15px;
+    border: none;
+    font-size: 12pt;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(216, 29, 79);
+}
